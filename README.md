@@ -16,3 +16,5 @@
 |    [Bubble Sort](./Algorithms/Sorting/bubble_sort.cpp)    |         O(n)         |         O(n^2)          |        O(n^2)         |       O(1)       |
 | [Insertion Sort](./Algorithms/Sorting/selection_sort.cpp) |         O(n)         |         O(n^2)          |        O(n^2)         |       O(1)       |
 |                      [Merge Sort]()                       |     O(n(log n))      |       O(n(log n))       |      O(n(log n))      |       O(n)       |
+
+![Time Complexity](./Algorithms/time-complexity.png)
