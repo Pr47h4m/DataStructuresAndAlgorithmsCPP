@@ -8,7 +8,7 @@
 |    :---:   |
 | [Linear Search](./Algorithms/Searching/linear_search.cpp) |
 | [Binary Search](./Algorithms/Searching/binary_search.cpp) |
-| [Binary Search - R]() |
+| [Binary Search - R](./Algorithms/Searching/binary_search_recursive.cpp) |
 
 | SORT |
 |    :---:   |
