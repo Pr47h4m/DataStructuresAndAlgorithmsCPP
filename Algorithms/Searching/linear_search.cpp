@@ -20,20 +20,21 @@ int main()
             cin >> array[i];
         }
         int index = linear_search(array, n, key);
-        cout << "Case #"<< c << ": " << index << endl;
+        cout << "Case #" << c << ": " << index << endl;
     }
     return 0;
 }
 
-int linear_search(int array[], int n, int key) {
+int linear_search(int array[], int n, int key)
+{
     int index = -1; // index where key could be present
-        for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++i)
+    {
+        if (array[i] == key)
         {
-            if (array[i] == key)
-            {
-                index = i;
-                break;
-            }
+            index = i;
+            break;
         }
+    }
     return index;
 }
