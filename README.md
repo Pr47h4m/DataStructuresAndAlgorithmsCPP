@@ -18,3 +18,6 @@
 |                      [Merge Sort](./Algorithms/Sorting/merge_sort.cpp)                       |     O(n(log n))      |       O(n(log n))       |      O(n(log n))      |       O(n)       |
 
 ![Time Complexity](./Algorithms/time-complexity.png)
+
+## Google Kick Start
+#### [Solutions](./Google-KickStart/)
