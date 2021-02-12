@@ -4,6 +4,6 @@
 
 ## [``` ALGORITHMS ```](./Algorithms/README.md)
 
-## ``` New ```
+## ``` NEW ```
 ## Google Kick Start
 #### [Solutions](./Google-KickStart/README.md)
