@@ -7,3 +7,4 @@
 ## ``` NEW ```
 ## Google Kick Start
 #### [Solutions](./Google-KickStart/README.md)
+#### Also See [Template For KickStart](./Google-KickStart/template.cpp)
