@@ -3,35 +3,43 @@
 
 using namespace std;
 
+void solve()
+{
+    int n, b; // for n houses and dollars to spend
+    cin >> n >> b;
+    int arr[n];
+    for (int i = 0; i < n; ++i)
+    {
+        cin >> arr[i];
+    }
+    sort(arr, arr + n);
+    int ans = 0;
+    for (int i = 0; i < n; ++i)
+    {
+        if (arr[i] <= b)
+        {
+            ans++;
+            b -= arr[i];
+        }
+        else
+        {
+            break;
+        }
+    }
+    cout << ans << endl;
+}
+
 int main()
 {
-    int t; // for t testcases
-    cin >> t;
-    int c = 0;
-    while (t--)
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    int T; // for t testcases
+    cin >> T;
+    int C = 0;
+    while (T--)
     {
-        c++;
-        int n, b; // for n houses and dollars to spend
-        cin >> n >> b;
-        int arr[n];
-        for (int i = 0; i < n; ++i)
-        {
-            cin >> arr[i];
-        }
-        sort(arr, arr + n);
-        int ans = 0;
-        for (int i = 0; i < n; ++i)
-        {
-            if (arr[i] <= b)
-            {
-                ans++;
-                b -= arr[i];
-            }
-            else
-            {
-                break;
-            }
-        }
-        cout << "Case #" << c << ": " << ans << endl;
+        C++;
+        cout << "Case #" << C << ": ";
+        solve();
     }
 }
