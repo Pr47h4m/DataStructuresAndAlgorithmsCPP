@@ -5,9 +5,9 @@
 | \\ | \\ | \\ | [Alien Piano](./2020/Round-D/alien-piano.cpp) | \\ | \\ | \\ | \\ |
 
 ## 2019
-| ```Round A``` | ```Round B``` | ```Round C``` | ```Round D``` | ```Round E``` | ```Round F``` |  ```Round G``` | ```Round H``` |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :------: | :-----: |
-| [Number Guessing](./2019/Round-A/number-guessing.cpp) | \\ | \\ | \\ | \\ | \\ | \\ | \\ |
+| ```Practice Round``` | ```Round A``` | ```Round B``` | ```Round C``` | ```Round D``` | ```Round E``` | ```Round F``` |  ```Round G``` | ```Round H``` |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :------: | :-----: |
+| [Number Guessing](./2019/Practice-Round/number-guessing.cpp) | \\ | \\ | \\ | \\ | \\ | \\ | \\ |
 
 ## 2018
 | ```Round A``` | ```Round B``` | ```Round C``` | ```Round D``` | ```Round E``` | ```Round F``` |  ```Round G``` | ```Round H``` |
