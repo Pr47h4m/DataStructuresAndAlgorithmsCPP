@@ -1,4 +1,4 @@
 ## 2020
-| ```Qualification Round``` |
-| :-----------------------: |
+|               ```Qualification Round```               |
+| :---------------------------------------------------: |
 | [Vestigium](./2020/Qualification-Round/vestigium.cpp) |
