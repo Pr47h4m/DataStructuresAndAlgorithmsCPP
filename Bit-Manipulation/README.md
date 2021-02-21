@@ -7,6 +7,7 @@
 |  [Clear Bit](./basics/clear-bit.cpp)  |
 | [Update Bit](./basics/update-bit.cpp) |
 
-|               ```Problems```                |
-| :-----------------------------------------: |
-| [Power Of Two](./problems/power-of-two.cpp) |
+|                     ```Problems```                      |
+| :-----------------------------------------------------: |
+|       [Power Of Two](./problems/power-of-two.cpp)       |
+| [Number Of Set Bits](./problems/number-of-set-bits.cpp) |
