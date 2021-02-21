@@ -1,4 +1,3 @@
-// Calculate number of ones (set bit) in binary representation of a numbere
 #include <iostream>
 
 using namespace std;
