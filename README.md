@@ -4,6 +4,8 @@
 
 ## [``` ALGORITHMS ```](./Algorithms/README.md)
 
+## [``` Bit Manipulation ```](./Bit-Manipulation)
+
 ## ``` NEW ```
 ## Google Code Jam
 #### [Solutions](./Google-CodeJam)
