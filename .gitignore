@@ -1,6 +1,10 @@
 /.vscode/
 
+/libraries/
+/main.cpp
+
 **/.cph
 **/*.bin
 
+**/*.out
 **/*.exe
