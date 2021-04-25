@@ -23,6 +23,7 @@ public:
     int length();             // working
     void add(int);            // working
     void display();           // working
+    void reverse();           // working
     void removeAt(int);       // working
     int elementAt(int);       // working
     int indexWhere(int);      // working
@@ -179,6 +180,21 @@ int List::indexWhere(int key)
     return -1;
 }
 
+void List::reverse()
+{
+    Node *curr = head;
+    Node *prev = NULL;
+    Node *next;
+    while (curr != NULL)
+    {
+        next = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = next;
+    }
+    head = prev;
+}
+
 void List::clear()
 {
     Node *toDelete;
@@ -218,9 +234,10 @@ void displayMenu()
          << "5. Select element at index of the list" << endl
          << "6. Find element in the list" << endl
          << "7. Length of the list" << endl
-         << "8. Display the list" << endl
-         << "9. Clear list" << endl
-         << "10. Exit" << endl;
+         << "8. Reverse the list" << endl
+         << "9. Display the list" << endl
+         << "10. Clear list" << endl
+         << "11. Exit" << endl;
 }
 
 // Driver Code
@@ -229,7 +246,7 @@ int main()
     List list;
     int choice;
     int data, index;
-    while (choice != 10)
+    while (choice != 11)
     {
         displayMenu();
         cin >> choice;
@@ -273,12 +290,15 @@ int main()
             cout << list.length() << endl;
             break;
         case 8:
-            list.display();
+            list.reverse();
             break;
         case 9:
-            list.clear();
+            list.display();
             break;
         case 10:
+            list.clear();
+            break;
+        case 11:
             list.clear();
             cout << "Bye" << endl;
             break;
