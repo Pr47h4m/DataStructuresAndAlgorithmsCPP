@@ -279,6 +279,7 @@ int main()
             list.clear();
             break;
         case 10:
+            list.clear();
             cout << "Bye" << endl;
             break;
         default:
