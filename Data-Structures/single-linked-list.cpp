@@ -260,7 +260,7 @@ int main()
         case 2:
             cout << "Enter number: ";
             cin >> data;
-            cout << "Enter index (0-" << list.length() - 1 << "): ";
+            cout << "Enter index (0-" << list.length() << "): ";
             cin >> index;
             list.insertAt(data, index);
             break;
